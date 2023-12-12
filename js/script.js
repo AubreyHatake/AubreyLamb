@@ -7,7 +7,8 @@ var quoteArray = [
     "Do one thing every day that scares you -Eleanor Roosevelt",
     "If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough.   -Oprah Winfrey",
     "The way you get started is to quit talking and begin doing. -Walt Disney",
-    "Never let the fear of striking ou keep you from playing the game. -Babe Ruth"
+    "Never let the fear of striking ou keep you from playing the game. -Babe Ruth",
+    "Miss honey, miss honey, miss honeeyyy. Miss honey. -Kevin Jz Prodigy"
 ];
 // Miss Honey sound 
 let quoteSound = new Audio('./audio/Ms-Honey.mp3');
