@@ -1,0 +1,82 @@
+/* Color Scheme
+C6DCE4
+DAEAF1
+F2D1D1
+FFE6E6 */
+
+* {
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 5px;
+}
+
+body {
+    background-color: #F5CBCC;
+    font-family: "Comfortaa";
+}
+
+.li.nav-item {
+    background-color: #E8E8E8;
+}
+
+li.nav-item:hover {
+ background-color: #F2D1D1;
+}
+
+.imgRow {
+    margin: 5px;
+    padding: 4px;
+    display:flex; flex-wrap:wrap
+}
+
+.pinkjacket {
+    position: relative;
+    border-radius: 50%;
+    animation: Bounce 1s linear infinite;
+}
+
+.pinkjacket1 {
+    position: relative;
+    border-radius: 50%;
+    animation: Bounceone 1s linear infinite;
+}
+
+@keyframes Bounce {  
+   0%, 100% {
+    bottom: 0;
+   }
+   50% {
+    bottom: 30px;
+   }
+}
+
+@keyframes Bounceone {  
+    0%, 100% {
+     top: 0;
+    }
+    50% {
+     top: 30px;
+    }
+ }
+
+a {
+    color: rgb(138, 189, 255);
+}
+
+/* .quoteContainer {
+    position: relative;
+    float: right;
+} */
+
+.quotesBtn {
+    border-radius: 5px;
+    border-color: #FFECEF;
+    background-color: #f8eeee;
+}
+
+.card-body {
+    background-color: #f8eeee;
+}
+
+
+
