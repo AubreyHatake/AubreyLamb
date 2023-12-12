@@ -24,19 +24,23 @@ li.nav-item:hover {
 }
 
 .imgRow {
-    margin: 5px;
+    margin: 10px;
     padding: 4px;
     display:flex; flex-wrap:wrap
 }
 
 .pinkjacket {
     position: relative;
+    margin: 10px;
+    padding: 5px;
     border-radius: 50%;
     animation: Bounce 1s linear infinite;
 }
 
 .pinkjacket1 {
     position: relative;
+    margin: 10px;
+    padding: 5px;
     border-radius: 50%;
     animation: Bounceone 1s linear infinite;
 }
@@ -63,10 +67,6 @@ a {
     color: rgb(138, 189, 255);
 }
 
-/* .quoteContainer {
-    position: relative;
-    float: right;
-} */
 
 .quotesBtn {
     border-radius: 5px;
@@ -78,5 +78,14 @@ a {
     background-color: #f8eeee;
 }
 
+.classContainer {
+    text-align: left;
+    margin: 20px;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #7E94B2;
+    background-color: #E8E8E8;
+}
 
 
